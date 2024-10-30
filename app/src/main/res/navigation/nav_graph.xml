@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.mycityapp.MainActivity"
+        android:label="Main" />
+
+    <fragment
+        android:id="@+id/coffeeShopFragment"
+        android:name="com.example.mycityapp.CoffeeShopFragment"
+        android:label="Coffee Shops" />
+
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.example.mycityapp.RestaurantFragment"
+        android:label="Restaurants" />
+
+    <fragment
+        android:id="@+id/kidFriendlyFragment"
+        android:name="com.example.mycityapp.KidFriendlyFragment"
+        android:label="Kid-Friendly Places" />
+
+    <fragment
+        android:id="@+id/parkFragment"
+        android:name="com.example.mycityapp.ParkFragment"
+        android:label="Parks" />
+
+    <fragment
+        android:id="@+id/shoppingCenterFragment"
+        android:name="com.example.mycityapp.ShoppingCenterFragment"
+        android:label="Shopping Centers" />
+</navigation>
+
+
